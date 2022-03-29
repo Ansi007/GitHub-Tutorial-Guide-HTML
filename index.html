@@ -90,17 +90,41 @@
       done on different branches will not show up on the main branch until you merge it, which we will cover later in
       this
       guide. You can use branches to experiment and make edits before committing them to main.</p>
-    <br>
-    <p>When you create a branch off the main branch, you're making a copy, or snapshot, of main as it was at that point
-      in time. If someone else made changes to the main branch while you were working on your branch, you could pull in
-      those updates.</p>
-    <br>
+      <br>
+      <p>When you create a branch off the main branch, you're making a copy, or snapshot, of main as it was at that point in time. If someone else made changes to the main branch while you were working on your branch, you could pull in those updates.</p>
+      <br>
     <ul>
       <li>Run "git checkout -b 'your-branch-name'"</li>
       <img src="imgs/ss9.png" alt="">
       <li>To switch between branches run "git checkout 'branch-name'"</li>
       <img src="imgs/ss10.png" alt="">
     </ul>
+    </p>
+    <h1>
+      Making and committing changes
+    </h1>
+    <p>
+      <p>
+      When you created a new branch in the previous step, GitHub brought you to the code page for your new branch, which is a copy of main.
+</p>
+<br>
+<p>
+You can make and save changes to the files in your repository. On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes so that other contributors can understand what you’ve done and why.
+</p>
+<ul>
+  <li>
+    "Run "git add .". This will add all files in your folder to your local repository.
+  </li>
+  <img src="imgs/ss5.png" alt="">
+  <li>
+    "Run "git commit -m 'your-commit-message'". This will add a commit to your local repository.
+  </li>
+  <img src="imgs/ss6.png" alt="">
+  <li>
+    "Run "git push -u origin main"
+  </li>
+  <img src="imgs/ss8.png" alt="">
+</ul>
     </p>
   </main>
   <footer>
