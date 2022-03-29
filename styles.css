@@ -32,3 +32,10 @@ footer {
   border-right: 1px solid #ccc;
   margin-bottom: 10px;
 }
+
+ul {
+  padding-left: 30px;
+}
+li {
+  padding: 5px;
+}
